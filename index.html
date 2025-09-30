@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+</head>
+
+<body>
+    <section class="main-container">
+        <div class="weather_header">
+        <form class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="search" class="city_name" placeholder="Search your city..">
+        </form>
+        </div>
+        <section class="mini-container">
+            <h1 class="place"></h1>
+            <p class="date_time"></p>
+            <div class="forecast">
+                <p class="weather_forecast"></p>
+                <div class="icon"></div>
+            </div>
+            <p class="weather_temperature"></p>
+            <div class="weather_minmax">
+                <p class="min"></p>
+                <p class="max"></p>
+            </div>
+            <section class="more-data">
+                <div class="weather_card">
+                    <i class="fa-solid fa-temperature-high"></i>
+                    <div>
+                        <p>Feels like</p>
+                        <p class="feels_like"></p>
+                    </div>
+                </div>
+                <div class="weather_card">
+                    <i class="fa-solid fa-droplet"></i>
+                    <div>
+                        <p>Humidity</p>
+                        <p class="humidity"></p>
+                    </div>
+                </div>
+                <div class="weather_card">
+                    <i class="fa-solid fa-wind"></i>
+                    <div>
+                        <p>Wind</p>
+                        <p class="wind"></p>
+                    </div>
+                </div>
+                <div class="weather_card">
+                    <i class="fa-solid fa-gauge-high"></i>
+                    <div>
+                        <p>Pressure</p>
+                        <p class="pressure"></p>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </section>
+    <script src="https://kit.fontawesome.com/46ea8aa135.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
