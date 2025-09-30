@@ -1,6 +1,7 @@
 🌦️  Weather Application
 
 A sleek, responsive weather app to check real-time weather updates for any city.
+
 🔗 Live Demo → https://weather-application-henna-chi.vercel.app/?
 
 ✨  Features
