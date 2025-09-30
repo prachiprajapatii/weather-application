@@ -61,10 +61,10 @@ const getWeatherData = async () => {
         w_forecast.innerHTML = weather[0].main; 
         w_icon.innerHTML = `<img src="http://openweathermap.org/img/wn/${weather[0].icon}@4x.png" />`;
 
-        w_temp.innerHTML = `${main.temp}&#176`;
-        w_temp_min.innerHTML = `Min: ${main.temp_min.toFixed()}&#176`;
-        w_temp_max.innerHTML = `Max: ${main.temp_max.toFixed()}&#176`;
-        feelsLike.innerHTML = `${main.feels_like}&#176`;
+        w_temp.innerHTML = `${main.temp}&#176`C;
+        w_temp_min.innerHTML = `Min: ${main.temp_min.toFixed()}&#176`C;
+        w_temp_max.innerHTML = `Max: ${main.temp_max.toFixed()}&#176`C;
+        feelsLike.innerHTML = `${main.feels_like}&#176`C;
         humidity.innerHTML = `${main.humidity}%`;
         w_wind.innerHTML = `${wind.speed} m/s`;
         pressure.innerHTML = `${main.pressure} hPa`
