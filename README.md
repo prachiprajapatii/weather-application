@@ -1,9 +1,9 @@
-🌦️ # Weather Application
+🌦️  Weather Application
 
 A sleek, responsive weather app to check real-time weather updates for any city.
-🔗 Live Demo → Weather App
+🔗 Live Demo → https://weather-application-henna-chi.vercel.app/?
 
-✨ # Features
+✨  Features
 
 🌍 Search weather by city
 
@@ -13,42 +13,17 @@ A sleek, responsive weather app to check real-time weather updates for any city.
 
 ⚡ Fast & lightweight
 
-🖼️ #Preview
+🖼️ Preview
 
-(Add a screenshot here — app homepage / search example)
+<img width="1884" height="966" alt="image" src="https://github.com/user-attachments/assets/c9b60557-e7b7-4b9e-a389-5ecab5fffc83" />
 
-🛠️ # Tech Stack
+🛠️Tech Stack
 
-Frontend: HTML, CSS, JavaScript (or React if you used it)
+Frontend: HTML, CSS, JavaScript 
 
-API: OpenWeatherMap (or your API)
+API: OpenWeatherMap
 
 Hosting: Vercel
-
-🚀 # Getting Started
-
-Clone and run the project locally:
-
-# Clone repo
-git clone https://github.com/yourusername/weather-application.git
-
-# Go inside project
-cd weather-application
-
-# Install dependencies
-npm install
-
-# Run locally
-npm start
-
-
-👉 App runs on http://localhost:3000
-
-⚙️ Configuration
-
-Create a .env file in root and add your API key:
-
-REACT_APP_WEATHER_API_KEY=your_api_key_here
 
 🌱 Future Improvements
 
@@ -62,11 +37,3 @@ REACT_APP_WEATHER_API_KEY=your_api_key_here
 
 📜 License
 
-Licensed under the MIT License – free to use & modify.
-
-💙 Acknowledgements
-
-OpenWeatherMap
- API
-
-Inspired by clean UI weather apps 🌤️
