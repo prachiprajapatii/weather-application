@@ -1,9 +1,9 @@
-🌦️ Weather Application
+🌦️ # Weather Application
 
 A sleek, responsive weather app to check real-time weather updates for any city.
 🔗 Live Demo → Weather App
 
-✨ Features
+✨ # Features
 
 🌍 Search weather by city
 
@@ -13,11 +13,11 @@ A sleek, responsive weather app to check real-time weather updates for any city.
 
 ⚡ Fast & lightweight
 
-🖼️ Preview
+🖼️ #Preview
 
 (Add a screenshot here — app homepage / search example)
 
-🛠️ Tech Stack
+🛠️ # Tech Stack
 
 Frontend: HTML, CSS, JavaScript (or React if you used it)
 
@@ -25,7 +25,7 @@ API: OpenWeatherMap (or your API)
 
 Hosting: Vercel
 
-🚀 Getting Started
+🚀 # Getting Started
 
 Clone and run the project locally:
 
